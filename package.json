@@ -11,7 +11,9 @@
     "test": "nyc --reporter=html mocha --timeout 5000 -- ./test/helpers.js './test/**/*.test.js' './src/**/*.test.js'",
     "test-watch": "mocha --compilers js:babel-core/register ./test/helpers.js './test/**/*.test.js' './src/**/*.test.js' --watch --recursive",
     "lint": "eslint . --ext .js --max-warnings 0",
-    "lint:fix": "eslint . --ext .js --fix"
+    "lint:fix": "eslint . --ext .js --fix",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "files": [
     "/dist"
@@ -51,7 +53,8 @@
     "lodash": "^4.17.10",
     "uuid": "^3.3.2",
     "validator": "^10.5.0",
-    "verbal-expressions": "^0.3.0"
+    "verbal-expressions": "^0.3.0",
+    "snyk": "^1.316.1"
   },
   "directories": {
     "test": "test"
@@ -66,5 +69,6 @@
   "homepage": "https://github.com/GovTechSG/open-attestation#readme",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
