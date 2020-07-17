@@ -45,7 +45,7 @@
     "rollup-plugin-node-resolve": "^3.3.0"
   },
   "dependencies": {
-    "ajv": "^6.5.2",
+    "ajv": "^6.12.3",
     "ethereumjs-util": "^5.2.0",
     "flat": "^4.1.0",
     "lodash": "^4.17.10",
