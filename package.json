@@ -47,7 +47,7 @@
   "dependencies": {
     "ajv": "^6.5.2",
     "ethereumjs-util": "^5.2.0",
-    "flat": "^4.1.0",
+    "flat": "^5.0.2",
     "lodash": "^4.17.10",
     "uuid": "^3.3.2",
     "validator": "^10.5.0",
