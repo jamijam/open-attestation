@@ -50,7 +50,7 @@
     "flat": "^4.1.0",
     "lodash": "^4.17.10",
     "uuid": "^3.3.2",
-    "validator": "^10.5.0",
+    "validator": "^13.6.0",
     "verbal-expressions": "^0.3.0"
   },
   "directories": {
